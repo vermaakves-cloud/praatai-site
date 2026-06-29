@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praatai | Your Autonomous AI Agentic Workspace</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-white selection:bg-emerald-500 selection:text-slate-950">
+
+    <!-- 🌐 Nav Header -->
+    <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <span class="text-2xl"> </span>
+                <span class="font-extrabold text-xl tracking-tight bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">praatai.site</span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="#features" class="text-sm text-slate-400 hover:text-white transition">Features</a>
+                <a href="#pricing" class="text-sm text-slate-400 hover:text-white transition">Pricing</a>
+                <a href="https://praatai.online" class="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-400 hover:to-cyan-400 text-slate-950 text-sm font-bold px-4 py-2 rounded-full transition shadow-lg shadow-emerald-500/20">Launch App</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 🚀 Hero Section -->
+    <section class="relative pt-24 pb-20 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(16,185,129,0.08),transparent_50%)]"></div>
+        <div class="max-w-5xl mx-auto px-6 text-center relative z-10">
+            <span class="bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">Hello World! Praatai is coming</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight mt-6 mb-8 leading-tight">
+                Your Unified <br class="hidden md:block">
+                <span class="bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent">Agentic Operating System</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+                Stop just chatting with AI. Hire specialized digital workers that connect directly to your Google Drive, search the web, run Python code in isolated sandboxes, and manage your local SA tasks.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://praatai.online" class="w-full sm:w-auto text-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-8 py-4 rounded-xl transition duration-200">
+                    Open Chat Workspace
+                </a>
+                <a href="#pricing" class="w-full sm:w-auto text-center border border-slate-700 hover:border-slate-500 text-white px-8 py-4 rounded-xl transition">
+                    View Subscriptions (ZAR)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📊 Pricing Section -->
+    <section id="pricing" class="py-20 border-t border-slate-900 bg-slate-950/50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white">Simple, Predictable Local Pricing</h2>
+                <p class="text-slate-400 mt-2">Unlock high-performance automation for your micro-business or startup</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Pro Tier -->
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl relative">
+                    <div class="absolute -top-3 right-4 bg-emerald-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full">POPULAR</div>
+                    <h3 class="text-xl font-semibold text-white">Pro</h3>
+                    <p class="text-slate-400 text-sm mt-1">For creators & solopreneurs</p>
+                    <div class="my-4">
+                        <span class="text-4xl font-bold text-white">R499</span>
+                        <span class="text-slate-400">/ month</span>
+                    </div>
+                    <ul class="space-y-3 text-slate-300 text-sm mb-8">
+                        <li class="flex items-center gap-2">✅ Full 7-Engine MCP Stack</li>
+                        <li class="flex items-center">✅ Standalone Python & Node Sandbox</li>
+                        <li class="flex items-center">✅ Google Drive & Web Fetch Skills</li>
+                        <li class="text-emerald-400 font-medium">🇿🇦 Local South African Integrations</li>
+                    </ul>
+                    <a href="#" class="block text-center bg-gradient-to-r from-emerald-500 to-cyan-500 text-slate-950 font-bold py-3 rounded-xl hover:from-emerald-400 hover:to-cyan-400 transition">
+                        Subscribe Now
+                    </a>
+                </div>
+
+                <!-- Agency Tier -->
+                <div class="bg-slate-900/60 border border-slate-800/80 p-8 rounded-2xl">
+                    <h3 class="text-xl font-semibold text-white">Agency</h3>
+                    <p class="text-slate-400 text-sm mt-1">For scale teams & enterprises</p>
+                    <div class="my-4">
+                        <span class="text-4xl font-bold text-white">R1,499</span>
+                        <span class="text-slate-400">/ month</span>
+                    </div>
+                    <ul class="space-y-3 text-slate-300 text-sm mb-8">
+                        <li class="flex items-center gap-2">✅ Everything in Pro</li>
+                        <li class="flex items-center">✅ White-labeled client dashboard</li>
+                        <li class="flex items-center">✅ Unlimited sandbox execution runs</li>
+                        <li class="flex items-center text-emerald-400">✅ Isolated Dedicated Tenant Slice</li>
+                    </ul>
+                    <a href="#" class="block text-center border border-slate-700 hover:border-slate-500 text-white font-bold py-3 rounded-xl transition">
+                        Contact Sales
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🚪 Footer -->
+    <footer class="border-t border-slate-900 py-10 bg-slate-950">
+        <div class="max-w-7xl mx-auto px-6 text-center text-slate-500 text-sm">
+            <p>&copy; 2026 praatai. All rights reserved. Built in South Africa 🇿🇦</p>
+        </div>
+    </footer>
+</body>
+</html>
